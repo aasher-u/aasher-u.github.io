@@ -1,0 +1,295 @@
+
+
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+
+
+
+body{
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Style the list items */
+ul li .navbar {
+    display:inline;
+}
+
+/* Style the links */
+ul li a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial;
+    font-size: 20px; 
+    margin: 70px; 
+   
+}
+
+/* Change link color on hover */
+ul li a:hover {
+    color: #cc33b8; /* Change to your desired hover color */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    background-color: #f2f2f2;
+    padding: 350px;
+    text-align: center;
+}
+
+aside img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+
+    color: gray;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+/*about page styling*/
+.checkbox-columns{
+    list-style: none;
+    columns:2;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.checkbox-columns li {
+    display: flex;
+    margin-bottom: 10px; 
+}
+
+#name{
+    font-size: 20px;
+    
+}
+
+#email {
+   color: #cc33b8;
+}
+
+/* Content styling */
+ .content {
+    padding-left: 100px;
+    padding-top: 300px;
+    
+}
+
+#title.content{
+    padding-top: 40px;
+}
+
+/* Styles for specific pages */
+
+.progress-bar{
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    padding-top: px;
+}
+
+
+
+
+.skills{ /*style the text*/
+	width: 500px;
+	margin: 60px auto;
+	color: #fff;
+}
+
+.skill-list{
+    list-style-type: none;
+}
+
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #c4c8cf;
+	display: block;
+    width:300px;
+	height: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+
+.bar span{ /*style the span tag*/
+	height: 10px;
+	float: left;
+	background-color: #0179e9;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 80%;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 93%;
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 50%;
+}
+
+.python{ /*set skills and animation of python*/
+	width: 80%;
+}
+
+/* Education and Experience pages */
+.education{
+    display:flex;
+    justify-content: space-between;
+}
+
+#education-item{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-top: 20px;
+
+}
+
+#right-column{
+
+
+   flex:1;
+   padding-top: 375px;
+   padding-left: 400px;
+   
+}
+
+
+/* Experience page */
+#right-column a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 8px 15px;
+    width: 5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#company {
+    font-size: 19px;
+}
+
+/* Interests page */
+
+
+
+/* Responsive Design */
+/* Desktop styles */
+@media only screen and (min-width: 800px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    aside {
+        padding: 350px;
+    }
+
+    .content {
+        padding-left: 100px;
+        padding-top: 300px;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (max-width: 1023px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    aside {
+        padding: 100px;
+    }
+
+    .content {
+        padding: 50px;
+    }
+}
+
+/* Mobile styles (optional) */
+@media only screen and (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    aside {
+        padding: 50px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+
+
+}
